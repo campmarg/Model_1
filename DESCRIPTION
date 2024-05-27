@@ -1,0 +1,12 @@
+Package: mypackage
+Title: Model that creates theoretical coastline with offshore wind farms.
+Version: 0.0.0.9000
+Authors@R: 
+    person("Margaret", "Campbell", , "mccampbell2000@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Creates a coastline with 100 patches. Five speices of groundfish were chosen to be run within the model. After each fish has hit equilibrium an offshore wind farm gets added to 10 of the 100 coastline patches. Along with this we lose one sampling site. The model is run for another 20 years to look at the short term effects of losing fishing area and survey sampling. 
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
